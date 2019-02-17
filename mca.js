@@ -1,7 +1,7 @@
 
 // Load CSS
-$("<link/>", { rel: "stylesheet", type: "text/css", href: "https://fooba.com.br/mca/assets/css/mca.css?v=8.8"	}).appendTo("head");
-$("<link/>", { rel: "stylesheet", type: "text/css", href: "https://fooba.com.br/mca/assets/css/icons.css?v=4.1"	}).appendTo("head");
+$("<link/>", { rel: "stylesheet", type: "text/css", href: "https://raw.githubusercontent.com/FeiraDaMusica/mapa-cultural-acessivel/master/assets/css/mca.css?v=8.8"	}).appendTo("head");
+$("<link/>", { rel: "stylesheet", type: "text/css", href: "https://raw.githubusercontent.com/FeiraDaMusica/mapa-cultural-acessivel/master/assets/css/icons.css?v=4.1"	}).appendTo("head");
 
 (function($){
 	$.fn.easyView = function(option, value){
