@@ -1,0 +1,55 @@
+div#font-setting {
+    width: 125px;
+    position: fixed;
+    z-index: 9999999999;
+    left: -100px;
+    animation: 500ms;
+}
+
+div#font-setting .btn-group button{
+    display: block;
+    width:100%;
+    margin:2px;
+    background: #000;
+    color: #FFF;
+    border: none;
+}
+div#font-setting .btn-group button.increase-me, 
+div#font-setting .btn-group button.decrease-me, 
+div#font-setting .btn-group button.reset-me {
+    width: 30px ;
+    float: left;
+    margin-right: 2px;
+}
+div#font-setting .btn-group button.btn-conteudo,
+div#font-setting .btn-group button.btn-navegacao {
+    white-space: normal;
+    height: auto;
+    width: 98px;
+    line-height: 1.5em;
+    font-size: 9px;
+    padding: 2px 0;
+}
+
+div#font-setting .btn-acessibilidade {
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 103px;
+    width: 40px;
+    background: rgba(0,0,0,.7);
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 17px 1px rgba(0,0,0,.1);
+}
+
+
+div#font-setting .btn-group button.change-me {
+	width: 98px;
+}
+@media screen {
+	div#font-setting .btn-group button span{
+	    visibility: collapse;
+	}
+	
+} 
